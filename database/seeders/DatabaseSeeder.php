@@ -16,6 +16,6 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
         $this->call(StateTableSeeder::class);
         $this->call(CityTableSeeder::class);
-        $this->call(EixoTableSeeder::class);
+        $this->call(AxisTableSeeder::class);
     }
 }

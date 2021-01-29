@@ -3,7 +3,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 
-class EixoTableSeeder extends Seeder
+class AxisTableSeeder extends Seeder
 {
      /**
      * Run the database seeders.
@@ -12,7 +12,7 @@ class EixoTableSeeder extends Seeder
      */
     public function run()
     {
-        \DB::table('eixos')->insert([
+        \DB::table('axes')->insert([
             'order' => 0,
             'name' => 'Educação',
             'color' => 'red',

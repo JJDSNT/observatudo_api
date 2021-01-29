@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateEixosTable extends Migration
+class CreateAxesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateEixosTable extends Migration
      */
     public function up()
     {
-        Schema::create('eixos', function (Blueprint $table) {
+        Schema::create('axes', function (Blueprint $table) {
             $table->id();
             $table->integer('order');
             $table->string('name');
@@ -31,6 +31,6 @@ class CreateEixosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('eixos');
+        Schema::dropIfExists('axes');
     }
 }
