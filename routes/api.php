@@ -3,6 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+use App\Models\Eixo;
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -24,3 +26,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('estados','App\Http\Controllers\Api\StateCityAPIController@getStateList');
 Route::get('cidades','App\Http\Controllers\Api\StateCityAPIController@getCityList');
+
+Route::get('eixos', function () {
+    return Eixo::orderBy('order')->get();;
+});

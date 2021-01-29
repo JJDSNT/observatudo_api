@@ -522,6 +522,7 @@ class ComposerStaticInit688a271b69f00722d94e547ddfcb91e9
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Models\\City' => __DIR__ . '/../..' . '/app/Models/City.php',
+        'App\\Models\\Eixo' => __DIR__ . '/../..' . '/app/Models/Eixo.php',
         'App\\Models\\State' => __DIR__ . '/../..' . '/app/Models/State.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
